@@ -1,6 +1,6 @@
 import React from "react";
 //import Container from "react-bootstrap/esm/Container";
-import PersonalInfo from "./PersonalInfo";
+//import PersonalInfo from "./PersonalInfo";
 
 const Content = () => {
     return(
@@ -8,7 +8,7 @@ const Content = () => {
             
             <h4 class="text-primary"> Templates </h4>
             <p> Select a template to get started </p>
-           <PersonalInfo/>
+           
         </div>
     )
 }

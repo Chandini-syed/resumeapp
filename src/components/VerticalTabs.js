@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import PersonalInfo from './PersonalInfo'
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -63,7 +64,7 @@ export default function VerticalTabs() {
        
       </Tabs>
       <TabPanel value={value} index={0}>
-      Personal info
+      <PersonalInfo/>
       </TabPanel>
       <TabPanel value={value} index={1}>
       Work Experience
