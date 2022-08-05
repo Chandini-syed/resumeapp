@@ -9,6 +9,8 @@ import PersonalInfo from './PersonalInfo'
 import EduDetails from './EduDetails'
 import WorkExp from './WorkExp'
 import Experience from './Experience'
+import StartYear from "./StartYear"
+import EndYear from "./EndYear"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -74,6 +76,8 @@ export default function VerticalTabs() {
       <TabPanel value={value} index={1}>
       <Experience/>
       <WorkExp/>
+      <div class="row"><StartYear/>
+      <EndYear/></div>
       </TabPanel>
       <TabPanel value={value} index={2}>
       <EduDetails/>

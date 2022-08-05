@@ -1,5 +1,6 @@
 import React from "react";
-
+import StartYear from "./StartYear"
+import EndYear from "./EndYear"
 
 
 const EduDetails = () => {
@@ -22,16 +23,9 @@ const EduDetails = () => {
       <input type="name" class="form-control" id="Degree4" placeholder="Enter Score"/>
       </div>
     </div>
-    <div class="row mt-3">
-      <div class="col-md-6">
-      <label for="inputSYear4">Start Year</label>
-      <input type="text" class="form-control" id="inputSyear4" placeholder="Select Year"/>
-      </div>
-      <div class="col-md-6">
-      <label for="inputEYear">End Year</label>  
-      <input type="text" class="form-control" id="inputEYear4" placeholder="Select Year"/>
-      </div>
-    </div>
+    
+    <div class="row mt-5"><StartYear/>
+      <EndYear/></div>
   <div class="container my-3">
     <div class="row">
         <div class="col-md-12 bg-light clear-fix">
