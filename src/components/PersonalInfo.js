@@ -2,8 +2,9 @@ import React from "react";
 
 const PersonalInfo = () => {
     return(
-        <div>
+        
         <form>
+        <div class="form-group">
         <img class="rounded-circle" alt="80x80" 
 src="https://picsum.photos/id/3/80/80" data-holder-rendered="true"/>
 <div id="profile-container">
@@ -59,12 +60,17 @@ src="https://picsum.photos/id/3/80/80" data-holder-rendered="true"/>
   <label for="comment">Objective:</label>
   <textarea class="form-control" rows="5" id="comment"></textarea>
 </div>
-  <stack gap={3} direction="horizontal" className="mt-3">
-  <button class="success" onClick={"#"}>Back</button>
-  <button class="success" onClick={'#'}>Next</button>
-  </stack>
-</form>
+  <div class="container my-3">
+    <div class="row">
+        <div class="col-md-12 bg-light clear-fix">
+            <button type="button" class="btn btn-primary float-right" onClick={"#"}>Back</button>
+            <button type="button" class="btn btn-success float-right" onClick={"#"}>Next</button>
         </div>
+    </div>
+</div>
+</div>  
+</form>
+        
     )
 }
 

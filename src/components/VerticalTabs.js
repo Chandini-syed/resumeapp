@@ -4,6 +4,8 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import PersonalInfo from './PersonalInfo'
+import EduDetails from './EduDetails'
+import WorkExp from './WorkExp'
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -67,10 +69,10 @@ export default function VerticalTabs() {
       <PersonalInfo/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-      Work Experience
+      <WorkExp/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-      Education
+      <EduDetails/>
       </TabPanel>
       <TabPanel value={value} index={3}>
       Key Skills
