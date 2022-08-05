@@ -12,7 +12,7 @@ src="https://picsum.photos/id/3/80/80" data-holder-rendered="true"/>
 </div>
 <input id="imageUpload" type="file" 
        name="profile_photo" placeholder="Photo" required="" capture/>
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-sm-6">
       <label for="inputFirstName">First Name</label>
       <input type="name" class="form-control" id="First4" placeholder=""/>
@@ -22,7 +22,7 @@ src="https://picsum.photos/id/3/80/80" data-holder-rendered="true"/>
       <input type="name" class="form-control" id="Last4" placeholder=""/>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-md-6">
       <label for="inputEmail4">Email</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email"/>
@@ -37,12 +37,12 @@ src="https://picsum.photos/id/3/80/80" data-holder-rendered="true"/>
       </div>
     </div>
     </div>
-    <div class="form-group">
+    <div class="form-group mt-3">
     <label for="inputAddress">Address</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"/>
     </div>
   
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-md-6">
       <label for="inputCity">City</label>
       <input type="text" class="form-control" id="inputCity"/>
@@ -52,11 +52,11 @@ src="https://picsum.photos/id/3/80/80" data-holder-rendered="true"/>
       <input type="text" class="form-control" id="inputState"/>
       </div>
     </div>  
-    <div class="form-group col-md-2">
+    <div class="form-group col-md-2 mt-3">
       <label for="inputPin">Pincode</label>
       <input type="text" class="form-control" id="inputPin"/>
     </div>
-  <div class="form-group">
+  <div class="form-group mt-3">
   <label for="comment">Objective:</label>
   <textarea class="form-control" rows="5" id="comment"></textarea>
 </div>

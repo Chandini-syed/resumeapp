@@ -1,15 +1,18 @@
 import React from "react";
 
+
+
 const EduDetails = () => {
+    
     return(
-        <form class="form-group">
+        <form class="form-group mt-3">
         <div>
-            <h4>Education Details</h4> </div>
-            <div class="col-sm-6">
+            <h5>Education Details</h5> </div>
+            <div class="col-sm-6 mt-5">
       <label for="inputType">Type</label>
       <input type="name" class="form-control" id="Type4" placeholder="graduation/PG"/>
       </div>
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-sm-6">
       <label for="inputUnivName">University</label>
       <input type="name" class="form-control" id="Univ4" placeholder="Enter University Name"/>
@@ -19,7 +22,7 @@ const EduDetails = () => {
       <input type="name" class="form-control" id="Degree4" placeholder="Enter Score"/>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-md-6">
       <label for="inputSYear4">Start Year</label>
       <input type="text" class="form-control" id="inputSyear4" placeholder="Select Year"/>
